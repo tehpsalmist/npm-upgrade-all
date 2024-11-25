@@ -1,0 +1,11 @@
+{
+  "fmt": {
+    "lineWidth": 120,
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "tasks": {
+    "dev": "deno run --watch --allow-all main.ts",
+    "i": "deno install --allow-run --allow-read main.ts -fg"
+  }
+}
